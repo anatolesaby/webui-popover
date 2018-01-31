@@ -171,7 +171,7 @@
                 if (this.getTrigger() !== 'manual') {
                     //init the event handlers
                     if (isMobile) {
-                        this.$element.off('touchend', this.options.selector).on('touchend', this.options.selector, $.proxy(this.toggle, this));
+                        this.$element.off('click', this.options.selector).on('click', this.options.selector, $.proxy(this.toggle, this));
                     } else if (this.getTrigger() === 'click') {
                         this.$element.off('click', this.options.selector).on('click', this.options.selector, $.proxy(this.toggle, this));
                     } else if (this.getTrigger() === 'hover') {
