@@ -1,3 +1,6 @@
+A fork to prevent bad behaviour on mobile when scrolling
+The only modification is in jquery.webui-popover.js L174 'touchend' replaced by 'touchend'
+
 WebUI-Popover
 =============
 
